@@ -1,0 +1,76 @@
+
+.navigation{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.nav-item a {
+    border: 1px solid transparent;
+
+
+}
+.nav-item:hover a{
+    border: 1px solid blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.img-1{
+    height: 100vh;
+    background-image: url(../images/bike-1.png);
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(162, 227, 9, 0.863);
+    /* opacity: 0.5; */
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    padding: 2rem;
+}
+.img-2{
+    height: 100vh;
+    background-image: url(../images/bike-3.png);
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(83, 218, 11, 0.863);
+    /* opacity: 0.5; */
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    padding: 2rem;
+  
+}
+.img-3{
+    height: 100vh;
+    background-image: url(../images/bike-2.png);
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(122, 156, 29, 0.711);
+    /* opacity: 0.5; */
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    padding: 2rem;
+  
+}
+.heading{
+    font-size: 2.5rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+footer{
+    background-color: #120E43;
+    color: white;
+}
+body{
+    /* background: red !important ; */
+    height: 100vh;
+}
